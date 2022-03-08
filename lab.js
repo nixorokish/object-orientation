@@ -12,8 +12,8 @@ console.log(sep)
 console.log(`Problem 1:`)
 
 const me = {
-  name: `kayleen`,
-  age: 31
+  name: `kseebug`,
+  age: 99
 }
 
 console.log(me)
@@ -30,7 +30,7 @@ console.log(sep)
 console.log(`Problem 2:`)
 
 const dog = {
-  name: `skye`,
+  name: `spot`,
   color: `brown`,
   age: 9,
   goodGirl: true
@@ -81,16 +81,21 @@ const favoriteThings = {
 
 //Code here
 favoriteThings.car = `subaru`
-console.log(favoriteThings)
+favoriteThings.show = `handmaid's tale`
+// console.log(favoriteThings)
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
+  and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, 
+    change them to something else.)
 */
 
 //Code here
+favoriteThings.food = `Chicken Nuggets`
+favoriteThings.book = `Harry Potter`
+console.log(favoriteThings)
 
-
+console.log(sep)
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
 // Do not edit the code below.
@@ -107,10 +112,14 @@ var carDetails = {
 */
 
 //Code Here
+console.log(`Problem 6:`)
 
+let {color, make, model} = carDetails
+console.log(`color = ${color}`)
 
-
+console.log(sep)
 //////////////////////////// PROBLEM 7 ////////////////////////////
+console.log(`Problem 7:`)
 
 /*
   In the function below named greeting, it is receiving an object as a parameter. 
@@ -118,16 +127,25 @@ var carDetails = {
   The property names are firstName, lastName, and title.
 */
 
+let kseebug = {
+  firstName: `ksee`,
+  lastName: `bug`,
+  title: `dr.`
+}
+
+
 function greeting( obj ) {
   //Code Here
+  const {firstName, lastName, title} = obj
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
 
+console.log(greeting(kseebug))
 
-
+console.log(sep)
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
 /*
