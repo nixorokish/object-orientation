@@ -147,6 +147,7 @@ console.log(greeting(kseebug))
 
 console.log(sep)
 //////////////////////////// PROBLEM 8 ////////////////////////////
+console.log(`Problem 8:`)
 
 /*
   Write a function called totalPopulation that will take in an object.
@@ -156,9 +157,19 @@ console.log(sep)
   Sum up the values and return the total number.
 */
 
+const state = {
+  arizona: 8
+  california: 23
+  texas: 16
+  utah: 4
+}
+
 //Code Here
+function totalPopulation(what) {
+  let {what} = state
+}
 
-
+totalPopulation(utah)
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
