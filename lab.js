@@ -63,21 +63,25 @@ console.log(sep)
 */
 
 //Code here
+console.log(`Problem 5`)
+
 const favoriteThings = {
-  band: ,
-  food: ,
-  person: ,
-  book: ,
-  movie: ,
-  holiday:
+  band: `blink-182`,
+  food: `pesole`,
+  person: `bernie`,
+  book: `just kids`,
+  movie: `pride & prejudice`,
+  holiday: `new year's day`
 }
 
 /*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car 
+  and then another key named 'show' with the value being your favorite show.
 */
 
 //Code here
-
+favoriteThings.car = `subaru`
+console.log(favoriteThings)
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
